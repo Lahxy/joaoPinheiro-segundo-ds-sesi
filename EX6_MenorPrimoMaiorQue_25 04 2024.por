@@ -1,4 +1,4 @@
-//EX6-Descreva um algoritmo que use um loop "enquanto" para encontrar o menor número primo maior que um número fornecido 
+//EX6-Descreva um algoritmo que use um loop "enquanto" para encontrar o menor nÃºmero primo maior que um nÃºmero fornecido 
 
 programa
 {
