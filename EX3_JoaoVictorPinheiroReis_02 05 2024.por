@@ -1,4 +1,4 @@
-/**EX3-Em um sistema de menu interativo, como criar uma opção que permita ao usuário escolher entre diferentes funcionalidades (como calcular, listar, atualizar, sair, etc.) com base em sua seleção? Implemente isso usando uma estrutura escolha caso */
+/**EX3-Em um sistema de menu interativo, como criar uma opÃ§Ã£o que permita ao usuario escolher entre diferentes funcionalidades (como calcular, listar, atualizar, sair, etc.) com base em sua selecao? Implemente isso usando uma estrutura escolha caso */
 
 programa {
   funcao inicio() {
