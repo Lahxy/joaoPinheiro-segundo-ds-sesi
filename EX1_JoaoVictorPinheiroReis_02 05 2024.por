@@ -1,4 +1,4 @@
-/**Em um sistema de vendas online, como implementar um processo que permita ao usuário adicionar produtos ao carrinho de compras e continuar adicionando enquanto desejar? O sistema deve utilizar uma estrutura faca enquanto para essa funcionalidade. */
+/**EX1-Em um sistema de vendas online, como implementar um processo que permita ao usuario adicionar produtos ao carrinho de compras e continuar adicionando enquanto desejar? O sistema deve utilizar uma estrutura faca enquanto para essa funcionalidade. */
 
 programa {
   funcao inicio() {
