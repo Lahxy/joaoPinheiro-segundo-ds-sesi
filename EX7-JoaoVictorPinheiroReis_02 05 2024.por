@@ -1,4 +1,4 @@
-/*EX7-Em um aplicativo de compras online, como permitir que o usuário escolha entre diferentes opções de entrega (normal, expressa, retirada na loja) com base em critérios como localização e urgência? Utilize a estrutura se para oferecer as opções disponíveis.+*/
+/*EX7-Em um aplicativo de compras online, como permitir que o usuário escolha entre diferentes opções de entrega (normal, expressa, retirada na loja) com base em critérios como localização e urgência? Utilize a estrutura se para oferecer as opções disponíveis.*/
 
 programa
 {
