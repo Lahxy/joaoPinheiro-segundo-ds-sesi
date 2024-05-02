@@ -1,80 +1,35 @@
-/**EX3-Em um sistema de menu interativo, como criar uma opcao que permita ao usuario escolher entre diferentes funcionalidades (como calcular, listar, atualizar, sair, etc.) com base em sua selecao? Implemente isso usando uma estrutura escolha caso */
+/**EX4-Em um sistema de gestão de estoque, como permitir ao usuário buscar por um produto específico e verificar sua disponibilidade em estoque? Utilize uma estrutura "faca" para permitir múltiplas tentativas de busca até que o usuário encontre o produto desejado.*/
 
-programa {
-  funcao inicio() {
-    inteiro eu, eu2, euLista, end=1, A, B
-	caracter op
-	escreva ("quantos numeros tera no máximo em suas listas: ")
-	leia(euLista)
-	real lista[euLista] 
-	enquanto (end==1)
+programa
+{
+	funcao inicio ()
 	{
-	    escreva("\n1-calcular\n2-listar\n3-atualizar\n4-sair\n")
-	    leia(eu)
-		limpa()
-	    escolha(eu)
-	    {
-		caso 1:
-			limpa()
-			escreva("diga o valor de A: ")
-			leia(A)
-			escreva("diga o valoe de B: ")
-			leia(B)
-			escreva("+, -, *, /: ")
-			leia(op)
-			escolha (op)
-			{
-				caso '+':
-					escreva("Resultado = ", A+B)
-				pare
-				caso '-':
-					escreva("Resultado = ", A-B)
-				pare
-				caso '*':
-					escreva("Resultado = ", A*B)
-				pare
-				caso '/':
-					escreva("Resultado = ", A/B)
-				pare
-				
-			}
-		pare
-		caso 2:
-			limpa()
-			escreva("1-para criar uma nova lista\n2-para ver a atual\n")
-			leia(eu)
-			se (eu==1)
-			{
-				para (inteiro i=0; i<euLista; i++)
-				{
-					escreva("diga o ",i+1,"° numero: ")
-					leia(lista[i])
-				}
-				escreva("a lista ficou como: ",lista)
-			}
-			se (eu==2)
-			{
-				escreva("\na lista atual e: ",lista,"\n")
-			}
-		pare
-	    caso 3:
-			limpa()
-			escreva("a lista atual é: ", lista,"\n")
-			escreva("posicao do numero quer atualizar na lista: ")
-			leia(eu)
-			escreva("valor a ser colocado no lugar de ",lista[eu-1],": ")
-			leia(eu2)
-			lista[eu-1]=eu2
-		pare
-	    caso 4:
-			limpa()
+		inteiro end, p1=10, p2=15, p3=0 //podem ser outros valores, mas o exercicio nao cobrou perguntar nada, sendo assim pensei que nao deveria o fazer, mas usei variaveis para determinar o nome afim de deixar claro que seria possivel
+		cadeia pesquisa, nmp1="Produto 1", nmp2="Produto 2", nmp3="Produto 3"
+		faca
+		{
 			end=0
-		pare
-		caso contrario:
+			escreva("ESTOQUE:\n1-",nmp1,"\n2-",nmp2,"\n3-",nmp3) //podem ser produtos especificos, claro, mas o exercicio nao especifica
+			escreva("\ndigite o nome do produto que você quer procurar no estoque: ")
+			leia(pesquisa)
 			limpa()
-			escreva("\nINVALIDO\n")
-	    pare
-	  }
+			se (pesquisa==nmp1)
+			{
+				escreva("Em estoque: ",p1,"\n")
+			}
+			senao se (pesquisa==nmp2)
+			{
+				escreva("Em estoque: ", p2,"\n")
+			}
+			senao se (pesquisa==nmp3)
+			{
+				escreva("Em estoque: ", p3,"\n")
+			}
+			senao
+			{
+				escreva("INVALIDO\n\n")
+				end=1
+			}
+		} enquanto (end==1)
 	}
-  }
 }
