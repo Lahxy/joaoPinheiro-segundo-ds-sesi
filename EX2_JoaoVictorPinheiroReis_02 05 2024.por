@@ -1,8 +1,8 @@
 /**EX2-
- * Em um programa de análise de despesas mensais, como calcular 
- * o total de gastos em diferentes categorias (como alimentação, transporte,
- *  lazer, etc.) ao longo de um período? Utilize uma estrutura enquanto para continuar 
- * solicitando despesas até que o usuário decida parar. */
+ * Em um programa de anÃ¡lise de despesas mensais, como calcular 
+ * o total de gastos em diferentes categorias (como alimentacao, transporte,
+ *  lazer, etc.) ao longo de um periodo? Utilize uma estrutura enquanto para continuar 
+ * solicitando despesas atÃ© que o usuario decida parar. */
 
 programa {
   funcao inicio() {
