@@ -41,7 +41,6 @@ programa {
           escreva("POSICAO FINAL DA FATIA: ")
           leia(posF)
           saida = t.extrair_subtexto(txt,posI,posF)
-		  end = 0
           pare
         
         
