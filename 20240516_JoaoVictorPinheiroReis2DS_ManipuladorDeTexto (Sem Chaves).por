@@ -1,4 +1,4 @@
-	programa {
+programa {
   inclua biblioteca Texto-->t
   inclua biblioteca Tipos-->tp
   funcao inicio() {
