@@ -4,7 +4,7 @@ programa {
   funcao inicio() {
     inteiro eu, end=1, posI, posF, posTxt
     cadeia txt, saida="", procura
-	escreva("BEM VINDO, O PROGRAMA A SEGUIR OFERECE OPCÕES PARA EXTRAIR ALGUMAS INFORMAÇÕES E MODIFICAR UM TEXTO, APENAS SIGA AS INSTRUÇÕES\n\n")
+	escreva("BEM VINDO, O PROGRAMA A SEGUIR OFERECE OPCOES PARA EXTRAIR ALGUMAS INFORMACOES E MODIFICAR UM TEXTO, APENAS SIGA AS INSTRUCOES\n\n")
     faca
     {
       escreva("INFORME O TEXTO: ")
