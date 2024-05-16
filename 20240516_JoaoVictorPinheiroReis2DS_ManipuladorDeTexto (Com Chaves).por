@@ -17,19 +17,19 @@ programa {
         {
           saida=t.caixa_alta(txt)
           pare
-		}
+	}
         
         caso 2:
         {
           saida=t.caixa_baixa(txt)
           pare
-		}
+	}
 
         caso 3:
         {
           saida = tp.inteiro_para_cadeia(t.numero_caracteres(txt), 10) + " CARACTERES"
           pare
-		}
+	}
         
         caso 4:
         {
@@ -39,9 +39,8 @@ programa {
           escreva("POSICAO FINAL DA FATIA: ")
           leia(posF)
           saida = t.extrair_subtexto(txt,posI,posF)
-		  end = 0
           pare
-		}
+	}
 		
         caso 5:
         {
@@ -56,12 +55,12 @@ programa {
 		  	saida="NAO ENCONTRADO"
 		  }
           pare
-		}
+	}
 
         caso contrario:
         {
           end=0
-		}
+	}
 		
       }
       limpa()
